@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background: #0d0d0d;
+  line-height: 2em;
+}
+
+/* Link Style */
+a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+}
+
+/* Navigation Style */
+.main-nav {
+  width: 100%;
+  background: orange transparent;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style: none;
+  margin-right: 0;
+  padding: 0;
+}
+.my_name {
+    display: block;
+    font-size: 25px;
+    color: white;
+    margin-right: auto
+  }
+  
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+
+  /* Header Style */
+  
+  header {
+    text-align: center;
+    padding-top: 60px;
+    line-height: 1.5;
+    height: 700px;
+    background: linear-gradient(#ffa949, transparent 70%),
+                linear-gradient(0deg, #222, transparent),
+                #ffa949 url('../image/background.jpg') no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  h1 {
+      text-transform: uppercase;
+      text-align: center;
+      color: white;
+      font-size: 3.75rem;
+      justify-self: center;
+      padding-top: 100px;
+      opacity: .3;
+      text-shadow: 4px 4px 0 orange;
+  }
+
+  /* main content style */
+
+  main {
+      width: 75%;
+      margin: auto;
+      text-align: center;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  .about-me p {
+      line-height: 1.5rem;
+      text-align: justify;
+  }
+  h2 {
+      margin: 5px 0 10px;
+      padding: 20px 0 10px;
+  }
+  .about-list {
+      margin: 5px 0 5px 5px;
+      padding: 5px;
+      list-style: none;
+      text-align: justify;
+      float: left;
+  }
+  .img-profile {
+      width: 200px;
+      height: 200px;
+      float: right;
+  }
+  /* Clear fixed */
+  .group1:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .personal-background {
+      border-top: 1px solid orange;
+      margin-top: 30px;
+      padding: 20px 0;
+  }
+  .education .work {
+      width: 46%;
+  }
+
+  .education {
+      float: left;
+      text-align: justify;
+  }
+  .image-work {
+      width: 20px;
+      height: 20px;
+  }
+  .image-edu {
+      width: 30px;
+      height: 30px;
+  }
+  .work {
+      float: right;
+      text-align: justify;
+}
+   .work li, .education li {
+       list-style: none;
+       line-height: 1rem;
+   }
+
+    /* Clear fixed */
+    .group:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #contact {
+        border-top: 1px solid orange;
+        padding-bottom: 60px;
+    }
+
+    .btn-submit {
+        width: 100px;
+        height: 40px;
+        font: 25px solid;
+        color: white;
+        padding: 0 10px 5px;
+        background-color: #132639;
+    }
+    .user-input, .user-input-text {
+        background-color: black;
+        border: 1px solid white;
+    }
+    .user-input {
+        height: 40px;
+    }
+    .user-form {
+        line-height: 5rem;
+    }
+    .btn-submit:hover {
+        color: orange;
+    }
+
+    /* footer style */
+    .main-footer {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        border-bottom: 5px solid orange;
+    }
+    .main-footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .main-footer li {
+        display: inline;
+    }
+    a.social {
+        display: inline-block;
+        text-indent: -9999px;
+        margin-left: 5px;
+        width: 30px;
+        height: 30px;
+        background-size: 30px 30px;
+        opacity: .4;
+        transition: all .4s;
+    }
+    a.twitter {
+        background-image: url(../image/twitter.svg);
+    }
+    a.linkedin {
+        background-image: url(../image/linkedin.svg);
+    }
+    a.github {
+        background-image: url(../image/github.svg);
+    }
+    a.facebook {
+        background-image: url(../image/facebook.svg);
+    }
+    a.social:hover {
+        opacity: 1;
+    }
+    .clearfix {
+        clear: both;
+    }
